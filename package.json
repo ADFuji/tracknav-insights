@@ -1,0 +1,29 @@
+{
+  "name": "tracknav-insights",
+  "version": "1.0.0",
+  "description": "tracker de click",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADFuji/tracknav-insights.git"
+  },
+  "author": "fuji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ADFuji/tracknav-insights/issues"
+  },
+  "homepage": "https://github.com/ADFuji/tracknav-insights#readme",
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
