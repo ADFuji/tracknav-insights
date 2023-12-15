@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/ADFuji/tracknav-insights#readme",
   "dependencies": {
+    "@fastify/cors": "^8.4.2",
     "@fastify/mongodb": "^8.0.0",
     "dotenv": "^16.3.1",
-    "fastify": "^4.24.3"
+    "fastify": "^4.24.3",
+    "fastify-cors": "^6.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
